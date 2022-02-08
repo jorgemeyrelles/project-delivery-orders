@@ -1,0 +1,154 @@
+.img-products {
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  justify-content: center;
+  object-fit: cover;
+  width: 50%;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+  color: black;
+  position: absolute;
+  bottom: 3vh;
+  width: 91%;
+  padding: 0;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.order-list-main {
+  justify-content: space-evenly;
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+}
+
+.order-list {
+  margin: 0 auto;
+  text-align: -webkit-center;
+}
+
+.detail-order {
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+}
+
+.input-card {
+  bottom: 10vh;
+  display: flex;
+  position: relative;
+  width: 100px;
+}
+
+.input-group {
+  display: block;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.form-control-sm {
+  border-radius: 0;
+}
+
+.input-text {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  width: 50px;
+}
+
+.btn-plus {
+  border-radius: 0 5px 5px 0;
+}
+
+.btn-less {
+  border-radius: 5px 0 0 5px;
+}
+
+.price {
+  background-color: #036b52;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  width: 100px;
+}
+
+.detail-order-card {
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.total-price-order {
+  background-color: #036b52;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  margin-top: 50px;
+  right: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.total-price-order-2 {
+  background-color: #036b52;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  margin-top: 30px;
+  right: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.total-price-to-checkout {
+  background-color: #036b52;
+  border: 1px solid white;
+  border-radius: 10px;
+  bottom: 20px;
+  box-shadow: 3px 3px 0 #c1c1c1;
+  color: white;
+  cursor: pointer;
+  padding: 2px;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  width: 300px;
+  z-index: 99;
+}
+
+.container-checkout {
+  justify-content: space-around;
+  margin: 20px;
+  width: 100%;
+}
+
+.order-list-card {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  align-items: center;
+}
+
+.btn-order {
+  align-items: center;
+  margin: 20px;
+  box-shadow: 1px 1px 5px #c1c1c1;
+}

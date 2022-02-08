@@ -1,0 +1,14 @@
+.main-form {
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px black;
+  margin: 180px auto;
+  padding: 15px;
+  text-align-last: center;
+  width: 50vh;
+}
+
+@media (min-width: 576px){
+  .me-sm-2 {
+    margin-right: 0rem!important;
+  }
+}
