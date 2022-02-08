@@ -67,7 +67,7 @@ function FormAdmin() {
   };
 
   return (
-    <form style={ { display: 'block', width: '100%' } }>
+    <form style={ { display: 'block', width: '100%', marginTop: '100px' } }>
       <h3>Cadastrar novo usuário</h3>
       <div style={ styleForm }>
         <div style={ { height: '100px' } }>
